@@ -1,0 +1,81 @@
+html,body{ 
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(35, 35, 35, 1);
+}
+.bg-image {
+        background-image: url("https://forbesme-prestaging-media.s3.us-east-2.amazonaws.com/lists/uploads/2021/03/30082830/9-Cairokee-01_Twitter-%40CairoKee.jpg");
+        filter: blur(3px);
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+}
+.logo {
+    text-align: center;
+}
+.header{
+    background-color: rgba(35, 35, 35, 1);
+    height: 80px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 97%;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+a {
+    margin: 20px;
+}
+main {
+    position: absolute;
+    top: 100px;
+    height: 100vh;
+    padding-left: 50px;
+    color: rgb(221, 171, 114);
+}
+div main{
+    -webkit-box-flex: 0;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+p.ridge {
+    border-style: ridge;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 30cm;
+}
+
+h1, h2 {
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+div.ridge {
+    border-style: ridge;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+/*.image_text_container {
+    display: flex;
+    gap: 1.5rem;
+}*/
+form {
+    padding: 30px;
+}
